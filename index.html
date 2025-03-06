@@ -6,13 +6,13 @@
     <title>Klaipėda</title>
     <style>
     table th, td {
-        border:3px solid black;
+        border: 2px solid #6a3d3d;
     }
 
         body {
             background-image: 
-            url(klp2.avif);
-            background-size: 1630px 500px;
+            url(./img/klp2.avif);
+            background-size: 1600px 600px;
             background-repeat: no-repeat;
             display: flex;
             flex-direction: column;
@@ -29,45 +29,73 @@
          .description {
             position: absolute;
             left: 1%;
-            top: 70%;
-            text-align:left; font-size:large; width: 90%; line-height: 1.6; 
+            top: 80%;
+            text-align:left; font-size:large; width: 95%; line-height: 1.6;
+                .colored-text {
+                    color: #6a3d3d;
+                }
+          
+            .under {
+                text-decoration: underline #6a3d3d;    
         }
+
+            .two {
+                list-style: square inside;
+        }
+    }
     </style>
 </head>
 <body>
     <h1>KLAIPĖDA</h1>
-    <img src="herb.png" alt="">
+    <img src="./img/herb.png" alt="">
    
     <div class="description">
-        <br><strong>Klaipėda</strong>– trečias pagal gyventojų skaičių ir plotą Lietuvos miestas, įsikūręs
+        <br><p class="under"><strong>Klaipėda-</strong></p><p class="colored-text">trečias pagal gyventojų skaičių ir plotą Lietuvos miestas, įsikūręs
         Vakarų Lietuvoje, Pajūrio žemumoje, ties Kuršių marių ir Baltijos jūros santakos vieta. 
         Svarbiausias Vakarų Lietuvos pramonės centras, kelių, geležinkelių ir jūrų transporto mazgas.
-        Iš dalies dėl regioninės reikšmės turinčio neužšąlančio Klaipėdos uosto prie Akmenos-Danės upės 
+    </p>
+            <p class="colored-text">Iš dalies dėl regioninės reikšmės turinčio neužšąlančio Klaipėdos uosto prie Akmenos-Danės upės 
         žiočių, miesto istorija yra sudėtinga. 1252 m. senosios kuršių gyvenvietės vietoje pastatyta
         Livonijos ordino pilis, prie kurios įsikūrė miestas. Vėliau miestas priklausė Vokiečių ordinui,
         Prūsijos kunigaikštystei, Prūsijos karalystei ir Vokietijai. Po Pirmojo pasaulinio karo pagal
         Versalio taikos sutartį Klaipėda ir Klaipėdos kraštas buvo atskirtas nuo Vokietijos ir po 1923 m.
         inscenizuoto Klaipėdos sukilimo, teritorija prijungta prie Lietuvos. 1939 m. po vokiečių paskelbto
         ultimatumo Klaipėda vėl okupuota Vokietijos. 1945 m. miestas su Klaipėdos kraštu okupuotas Sovietų 
-        Sąjungos ir prijungtas prie Lietuvos TSR.</br>
+        Sąjungos ir prijungtas prie Lietuvos TSR.</p></br>
     </div>
-    <table style="width:30%; margin-top:38%; margin-right:69%; ">
+    <a style="margin-top:47%; margin-center;" href="//lt.wikipedia.org/wiki/Klaip%C4%97da" target="_blank"><strong>Daugiau informacijos apie Klaipėda</strong></a>
+
+    <table style="width:40%; margin-right: 60%; margin-top:5%; margin-bottom: 5%;">
         <caption style="margin-center;"><strong>Lentelė</strong></caption>
         <tr>
             <th style="text-align:center";>Gyventojai</th>
             <th style="text-align:center";>Plotas</th>
             <th style="text-align:center";>Tankumas</th>
             <th style="text-align:center";>Įkūrimo data</th>
+            <th style="text-align:center";>Meras</th>
         </tr>
         <tr>
             <td style="text-align:center";>162 292</td>
             <td style="text-align:center";>98 km²</td>
             <td style="text-align:center";>1 656 žm./km²</td>
             <td style="text-align:center";>1252m.</td>
+            <td style="text-align:center";>Arvydas Vaitkus</td>
         </tr>
     </table>
-    <a style="margin-top:2%; margin-right:82%;" href="//lt.wikipedia.org/wiki/Klaip%C4%97da" target="_blank"><strong>Daugiau informacijos apie Klaipėda</strong></a>
     
+    <strong style="margin-center; margin-top: 1%; font-size: x-large;"><p style="color:#6a3d3d">Miesto objektai</p></strong>
+    <ul class="two"; style="width:35%; margin-top:1%; margin-right:65%;">
+      <li><a href="https://lt.wikipedia.org/wiki/Teatro_aik%C5%A1t%C4%97" target="_blank">Teatro aikštė</a></li>
+            <img src="./img/Teatroaikste.jpg" alt="" style="width:300px" height="300px">
+      <li><a href="https://lt.wikipedia.org/wiki/Akmena_(up%C4%97)" target="_blank">Danės upės krantinės</a></li>
+            <img src="./img/Birzostiltas.jpg" alt="" style="width:300px" height="300px">
+      <li><a href="https://lt.wikipedia.org/wiki/Klaip%C4%97dos_skulpt%C5%ABr%C5%B3_parkas" target="_blank">Skulptūrų parkas</a></li>
+            <img src="./img/skulpturos.JPG" alt="" style="width:300px" height="300px">
+      <li><a href="https://lt.wikipedia.org/wiki/Meridianas_(laivas)" target="_blank">Burlaivis „Meridianas“</a></li>
+            <img src="./img/Meridianas.jpg" alt="" style="width:300px" height="300px">
+      <li><a href="https://lt.wikipedia.org/wiki/Olando_Kepur%C4%97" target="_blank">Olando kepurė</a></li>
+            <img src="./img/olandas.jpg" alt="" style="width: 300px; height: 300px;">
+    </ul>
 
     </style>
 </body>
