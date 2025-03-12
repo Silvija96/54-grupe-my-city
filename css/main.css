@@ -44,11 +44,16 @@
             a:visited {  
             }
 
-            table th, td {
-                width:20%;
-                margin-right: 10%;
-                margin-top:70%;
+            table {
+                width:45%;
+                margin-right: 53%;
+                margin: top 1px;0%;
                 margin-bottom: 10%;
+                text-align:center;
+                border: 3px solid #6a3d3d;
+            }
+            th, td {
+                
                 text-align:center;
                 border: 2px solid #6a3d3d;
             }
@@ -58,3 +63,4 @@
                 font-size: x-large;
                 color:#6a3d3d
             }
+            
